@@ -117,18 +117,32 @@ body {
 }
 
 @media (max-width: 1225px) {
+    .menu {
+        flex-direction: column;
+    }
+
     .conteudo-principal-texto {
-        justify-content: center;
-        text-align: center;
+    justify-content: center;
+    text-align: center;
     }
-    
-        .conteudo-principal {
-            display: flex;
-            flex-direction: column;
-    
-        }
-        .cafe {
-            margin-top: 5em;
-        }
-    
+
+    .conteudo-principal-texto-frase {
+        max-width: 60%;
     }
+
+
+
+    .conteudo-principal {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .cafe {
+        margin-top: 5em;
+        width: 80%;
+    }
+
+    .rodape {
+        flex-direction: column;
+    }
+}
