@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --fonte: 'Rubik', 'sans-serif';
+    --cor--texto: #1A120B;
+}
+
+body {
+    background: linear-gradient(to bottom, #765341, #8b6c5c) ;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+/* HEADER */
+
+.menu {
+    /* background-color: white; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.menu__logo {
+    display: flex;
+    width: 250px;
+}
+
+.menu__cabecalho {
+    display: flex;
+    gap: 50px;
+}
+
+.menu__cabecalho__navegacao {
+    justify-content: right;
+    flex-direction: row;
+    font-size: 1.875rem;
+    gap: 30px;
+}
+
+/* MAIN */
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    border-top: 0.5px solid;
+    border-bottom: 0.5px solid;
+    /* margin-bottom: 100px; */
+    padding: 5%;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-texto-titulo {
+    display: flex;
+    color: var(--cor--texto);
+    font-family: var(--fonte);
+    font-size: 4rem;
+}
+
+.conteudo-principal-texto-subtitulo {
+    display: flex;
+    color: #1A120B;
+    font-family: var(--fonte);
+    margin-top: -1em;
+    font-size: 3rem;
+} 
+
+.conteudo-principal-texto-frase {
+    display: flex;
+    font-family: var(--fonte);
+    font-size: 2em;
+    max-width: 40%;
+    border: 3px solid;
+    border-radius: 8px;
+    text-align: justify;
+    background-color: #A9907E;
+} 
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #8b6c5c;
+}
+
+.rodape-link {
+    display: flex;
+    font-family: var(--fonte);
+    font-size: 2rem;
+    /* justify-content: center; */
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 2px;
+    background-color: #A9907E;
+}
